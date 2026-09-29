@@ -58,4 +58,5 @@ GRANT EXECUTE ON sys.sp_cdc_get_ddl_history TO debezium;
 GRANT EXECUTE ON sys.sp_cdc_get_captured_columns TO debezium;
 GRANT EXECUTE ON sys.sp_cdc_get_source_columns TO debezium;
 GRANT SELECT ON dbo.users TO debezium;
+GRANT SELECT ON cdc.dbo_users_CT TO debezium;
 GO
