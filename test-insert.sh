@@ -79,3 +79,4 @@ docker-compose exec kafka kafka-console-consumer \
   --topic mssql.dbo.users \
   --timeout-ms 3000 \
   --max-messages 5 2>&1 | grep -v "ERROR\|Processed\|org.apache" || echo "(checking...)"
+
